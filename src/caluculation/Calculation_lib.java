@@ -18,7 +18,11 @@ public class Calculation_lib {
 	public int getProduct(){
 		return m*n;
 	}
-	public int getMod(){
+	public int getDivide(){
 		return m/n;
+	}
+	public int getMod(){
+		return m%n;
+	
 	}
 }
